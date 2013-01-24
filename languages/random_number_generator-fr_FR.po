@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Random Number Generator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-26 17:59+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Whiler <webmaster@blogs.wittwer.fr>\n"
+"Language-Team: Whiler\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Tr.: Plugin description
+#: 2translate.php:7
+msgid "Generates a random number (for instance, useful to avoid browsers links cache)"
+msgstr "G&eacute;n&egrave;re un nombre al&eacute;atoire (par exemple, utile pour &eacute;viter le cache des navigateurs)"
+
+#. Tr.: Settings page title / %s: Plugin name
+#: random_number_generator.php:144
+#, php-format
+msgid "%s Options"
+msgstr "Options %s"
+
+#: random_number_generator.php:150
+msgid "You should reopen this page from its new parent menu!"
+msgstr "Vous devriez r&eacute;ouvrir cette page depuis son nouveau menu parent&nbsp;!"
+
+#: random_number_generator.php:155
+msgid "General options"
+msgstr "Options g&eacute;n&eacute;rales"
+
+#: random_number_generator.php:157
+#, php-format
+msgid "Simply replace the tag %s by a random number."
+msgstr "Remplace simplement le tag %s par un nombre aléatoire."
+
+#: random_number_generator.php:158
+#, php-format
+msgid "Used to avoid browsers cache by inserting a random number. For instance, %1$s generates %2$s."
+msgstr "Utilis&eacute; pour &eacute;viter le cache des navigateurs en ins&eacute;rant un nombre al&eacute;atoire. Par exemple, %1$s g&eacute;n&egrave;re %2$s."
+
+#: random_number_generator.php:158
+msgid "my_url"
+msgstr "mon_url"
+
+#: random_number_generator.php:163
+msgid "From:"
+msgstr "A partir de&nbsp;:"
+
+#: random_number_generator.php:167
+#: random_number_generator.php:177
+#: random_number_generator.php:187
+#: random_number_generator.php:204
+#: random_number_generator.php:221
+msgid "Dispay more details"
+msgstr "Afficher plus de d&eacute;tails"
+
+#. Tr.: Button caption for help
+#: random_number_generator.php:167
+#: random_number_generator.php:177
+#: random_number_generator.php:187
+#: random_number_generator.php:204
+#: random_number_generator.php:221
+msgid "?"
+msgstr "?"
+
+#: random_number_generator.php:168
+#, php-format
+msgid "Lowest integer value to be returned (default: <code>%d</code>)."
+msgstr "La plus petite valeur enti&egrave;re &agrave; retourner (par d&eacute;faut, <code>%d</code>)."
+
+#: random_number_generator.php:173
+msgid "To:"
+msgstr "Jusqu'&agrave;&nbsp;:"
+
+#: random_number_generator.php:178
+#, php-format
+msgid "Highest integer value to be returned (default: <code>%d</code>)."
+msgstr "La plus grande valeur enti&egrave;re &agrave; retourner (par d&eacute;faut, <code>%d</code>)."
+
+#: random_number_generator.php:183
+msgid "Format:"
+msgstr "Format&nbsp;:"
+
+#: random_number_generator.php:188
+#, php-format
+msgid "Random number produced according to the formatting string above (default: <code>%s</code>)."
+msgstr "Retourne un nombre al&eacute;atoire, avec le format ci-dessus (par d&eacute;faut,  <code>%s</code>)."
+
+#: random_number_generator.php:189
+#, php-format
+msgid "See %s documentation for a description of format."
+msgstr "Voir la documentation de la fonction %s pour une description du param&egrave;tre format."
+
+#: random_number_generator.php:189
+msgid "http://www.php.net/manual/en/function.sprintf.php"
+msgstr "http://www.php.net/manual/fr/function.sprintf.php"
+
+#: random_number_generator.php:189
+msgid "Visit PHP: sprintf - Manual page"
+msgstr "Visiter la page du manuel PHP : sprintf"
+
+#: random_number_generator.php:193
+msgid "Advanced options"
+msgstr "Options avanc&eacute;es"
+
+#: random_number_generator.php:195
+msgid "Warning! If you change this value, you have to change all your previous used shortcode tags! Moreover, you have to, of course, not use another already existing tag caption!"
+msgstr "Attention&nbsp;! Si vous changez cette valeur, vous devrez &eacute;galement changer tous les tags pr&eacute;c&eacute;demment utilis&eacute;s&nbsp;! De plus, vous devrez, bien &eacute;videmment, ne pas utiliser un code d&eacute;j&agrave; existant&nbsp;!"
+
+#: random_number_generator.php:200
+msgid "Shortcode tag:"
+msgstr "Code du tag&nbsp;:"
+
+#: random_number_generator.php:205
+#, php-format
+msgid "Shortcode tag to replace in the contents (default: <code>%s</code>)."
+msgstr "Code du tag &agrave; remplacer dans les contenus (par d&eacute;faut, <code>%s</code>)."
+
+#: random_number_generator.php:210
+msgid "Plugin parent menu:"
+msgstr "Menu parent de l'extension&nbsp;:"
+
+#: random_number_generator.php:221
+msgid "Warning! If you change this value, after saving changes, it's better to navigate to the new submenu!"
+msgstr "Attention&nbsp;! Si vous changez cette valeur, apr&egrave;s l'enregistrement des modifications, il est recommand&eacute; de naviguer sur le nouveau sous-menu&nbsp;!"
+
+#: random_number_generator.php:222
+#, php-format
+msgid "Parent menu for this plugin options page (default: <code>%s</code>)."
+msgstr "Menu parent pour cette page de r&eacute;glages de l'extension (par d&eacute;faut,  <code>%s</code>)."
+
+#. Tr.: Not used - Using WP main domain
+#. Tr.: Below the plugin name, in the plugin page
+#: random_number_generator.php:222
+#: random_number_generator.php:264
+msgid "Settings"
+msgstr "R&eacute;glages"
+
+#: random_number_generator.php:230
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: random_number_generator.php:234
+#, php-format
+msgid "As this plugin is initially a sample, you can directly launch the %s from here."
+msgstr "Comme cette extension est initialement l'exemple d'un tutoriel, vous pouvez directement lancer l'%s &agrave; partir d'ici."
+
+#: random_number_generator.php:234
+msgid "plugin editor"
+msgstr "&eacute;diteur d'extension"
+
+#: random_number_generator.php:239
+msgid "Plugin translated by:"
+msgstr "Extension traduite par&nbsp;:"
+
+#. Tr.: YOUR website URL
+#: random_number_generator.php:242
+msgid "http://blogs.wittwer.fr/whiler/tag/rng/"
+msgstr "http://blogs.wittwer.fr/whiler/tag/rng/"
+
+#. Tr.: YOUR name
+#: random_number_generator.php:245
+msgid "Whiler"
+msgstr "Whiler"
+
+#: random_number_generator.php:278
+msgid "Development Version"
+msgstr "Version &#946;"
+
+#: random_number_generator.php:279
+msgid "Changelog"
+msgstr "R&eacute;visions"
+
+#. Tr.: Settings menu plugin caption
+#: random_number_generator.php:300
+#: random_number_generator.php:307
+msgid "Rand#Gen."
+msgstr "Random Nb Gen."
+
+#. Tr.: Returned value when format is invalid
+#: random_number_generator.php:368
+msgid "Invalid format:"
+msgstr "Format invalide&nbsp;:"
+

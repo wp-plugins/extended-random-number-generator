@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Random Number Generator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-26 17:59+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Whiler <webmaster@blogs.wittwer.fr>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\HTTP\\Site\\blogs\\wordpress\\wp-content\\plugins\\random-number-generator\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Tr.: Plugin description
+#: 2translate.php:7
+msgid "Generates a random number (for instance, useful to avoid browsers links cache)"
+msgstr ""
+
+#. Tr.: Settings page title / %s: Plugin name
+#: random_number_generator.php:144
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: random_number_generator.php:150
+msgid "You should reopen this page from its new parent menu!"
+msgstr ""
+
+#: random_number_generator.php:155
+msgid "General options"
+msgstr ""
+
+#: random_number_generator.php:157
+#, php-format
+msgid "Simply replace the tag %s by a random number."
+msgstr ""
+
+#: random_number_generator.php:158
+#, php-format
+msgid "Used to avoid browsers cache by inserting a random number. For instance, %1$s generates %2$s."
+msgstr ""
+
+#: random_number_generator.php:158
+msgid "my_url"
+msgstr ""
+
+#: random_number_generator.php:163
+msgid "From:"
+msgstr ""
+
+#: random_number_generator.php:167
+#: random_number_generator.php:177
+#: random_number_generator.php:187
+#: random_number_generator.php:204
+#: random_number_generator.php:221
+msgid "Dispay more details"
+msgstr ""
+
+#. Tr.: Button caption for help
+#: random_number_generator.php:167
+#: random_number_generator.php:177
+#: random_number_generator.php:187
+#: random_number_generator.php:204
+#: random_number_generator.php:221
+msgid "?"
+msgstr ""
+
+#: random_number_generator.php:168
+#, php-format
+msgid "Lowest integer value to be returned (default: <code>%d</code>)."
+msgstr ""
+
+#: random_number_generator.php:173
+msgid "To:"
+msgstr ""
+
+#: random_number_generator.php:178
+#, php-format
+msgid "Highest integer value to be returned (default: <code>%d</code>)."
+msgstr ""
+
+#: random_number_generator.php:183
+msgid "Format:"
+msgstr ""
+
+#: random_number_generator.php:188
+#, php-format
+msgid "Random number produced according to the formatting string above (default: <code>%s</code>)."
+msgstr ""
+
+#: random_number_generator.php:189
+#, php-format
+msgid "See %s documentation for a description of format."
+msgstr ""
+
+#: random_number_generator.php:189
+msgid "http://www.php.net/manual/en/function.sprintf.php"
+msgstr ""
+
+#: random_number_generator.php:189
+msgid "Visit PHP: sprintf - Manual page"
+msgstr ""
+
+#: random_number_generator.php:193
+msgid "Advanced options"
+msgstr ""
+
+#: random_number_generator.php:195
+msgid "Warning! If you change this value, you have to change all your previous used shortcode tags! Moreover, you have to, of course, not use another already existing tag caption!"
+msgstr ""
+
+#: random_number_generator.php:200
+msgid "Shortcode tag:"
+msgstr ""
+
+#: random_number_generator.php:205
+#, php-format
+msgid "Shortcode tag to replace in the contents (default: <code>%s</code>)."
+msgstr ""
+
+#: random_number_generator.php:210
+msgid "Plugin parent menu:"
+msgstr ""
+
+#: random_number_generator.php:221
+msgid "Warning! If you change this value, after saving changes, it's better to navigate to the new submenu!"
+msgstr ""
+
+#: random_number_generator.php:222
+#, php-format
+msgid "Parent menu for this plugin options page (default: <code>%s</code>)."
+msgstr ""
+
+#. Tr.: Not used - Using WP main domain
+#. Tr.: Below the plugin name, in the plugin page
+#: random_number_generator.php:222
+#: random_number_generator.php:264
+msgid "Settings"
+msgstr ""
+
+#: random_number_generator.php:230
+msgid "Save Changes"
+msgstr ""
+
+#: random_number_generator.php:234
+#, php-format
+msgid "As this plugin is initially a sample, you can directly launch the %s from here."
+msgstr ""
+
+#: random_number_generator.php:234
+msgid "plugin editor"
+msgstr ""
+
+#: random_number_generator.php:239
+msgid "Plugin translated by:"
+msgstr ""
+
+#. Tr.: YOUR website URL
+#: random_number_generator.php:242
+msgid "http://blogs.wittwer.fr/whiler/tag/rng/"
+msgstr ""
+
+#. Tr.: YOUR name
+#: random_number_generator.php:245
+msgid "Whiler"
+msgstr ""
+
+#: random_number_generator.php:278
+msgid "Development Version"
+msgstr ""
+
+#: random_number_generator.php:279
+msgid "Changelog"
+msgstr ""
+
+#. Tr.: Settings menu plugin caption
+#: random_number_generator.php:300
+#: random_number_generator.php:307
+msgid "Rand#Gen."
+msgstr ""
+
+#. Tr.: Returned value when format is invalid
+#: random_number_generator.php:368
+msgid "Invalid format:"
+msgstr ""
+
