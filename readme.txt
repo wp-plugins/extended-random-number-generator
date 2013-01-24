@@ -54,6 +54,7 @@ Which languages are included when I install the plugin?
 1. Options in English
 1. Options in French
 1. Options in Russian
+1. Sample
 
 
 == Changelog ==
