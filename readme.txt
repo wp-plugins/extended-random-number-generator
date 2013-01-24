@@ -10,9 +10,9 @@ This plugin extends the capability of the original Random Number Generator plugi
 
 == Description ==
 
-By default, the original <a href="http://wordpress.org/extend/plugins/random-number-generator/">Random Number Generator</a> plugin short code works within widgets, posts, and pages. We have extended the core capability of the plugin so that it also works within text/html fields, such as those used for advertising purposes.
+By default, the original <a href="http://wordpress.org/extend/plugins/random-number-generator/" target="_blank">Random Number Generator</a> plugin short code works within widgets, posts, and pages. We have extended the core capability of the plugin so that it also works within text/html fields, such as those used for advertising purposes.
 
-One primary use: It can be used to <a href="http://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1116933">defeat browser caching</a> by inserting a random number. The most common implementation of this is within Google DoubleClick ads where they require an 'ord=' within the script to ensure that ad creative is not cached by the browers.
+One primary use: It can be used to <a href="http://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1116933" target="_blank">defeat browser caching</a> by inserting a random number. The most common implementation of this is within Google DoubleClick ads where they require an 'ord=' within the script to ensure that ad creative is not cached by the browers.
 
 Use Example 1: 
 input: http://my_url?ord=[random-number]" 
