@@ -4,7 +4,7 @@ Donate link: TBD
 Tags: random, random numbers, generate random numbers
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: trunk
 License: GPLv2 or later
 
 This plugin extends the capability of the original Random Number Generator plugin so that the short code may be used within custom text/html fields native to many themes, such as those with special ad placements.
