@@ -5,6 +5,7 @@ Tags: random, random numbers, generate random numbers
 Requires at least: 2.7
 Tested up to: 3.5
 Stable tag: 1.0
+License: GPLv2 or later
 
 This plugin extends the capability of the original Random Number Generator plugin so that the short code may be used within custom text/html fields native to many themes, such as those with special ad placements.
 
@@ -52,10 +53,12 @@ Which languages are included when I install the plugin?
 == Screenshots ==
 
 1. Options in English
-1. Options in French
-1. Options in Russian
-1. Sample
+2. Options in French
+3. Options in Russian
+4. Sample
 
+== Upgrade Notice ==
+NA
 
 == Changelog ==
 
@@ -63,4 +66,3 @@ Which languages are included when I install the plugin?
 * Extended capability to work within text/html fields outside of posts and pages.
 * First release
 * Plugin started/forked from version 1.3.2 of Original Random Number Generator plugin
-
