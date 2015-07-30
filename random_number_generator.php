@@ -3,9 +3,9 @@
 Plugin Name: Extended Random Number Generator
 Plugin URI: mailto:dev@ribbedtee.com
 Description: Adds extended support to original Random Number Generator plug. Generates a random number (e.g. useful to avoid browsers links cache)
-Version: 1.0
+Version: 1.1
 Author: RTD LLC Development
-Author URI: http://ribbedtee.com/ 
+Author URI: mailto:rtddev@ribbedtee.com
 Text Domain: random_number_generator
 Domain Path: /languages/
 */
@@ -326,7 +326,7 @@ function register_random_number_generator_settings() { // whitelist options
  * @param string $content Format à utiliser si encapsulé par le tag
  * @return HTML
  */
-function random_number_generator_shortcode_handler($atts, $content) {
+function random_number_generator_shortcode_handler($atts, $content) { 
 	// $atts    ::= array of attributes
 	// $content ::= text within enclosing form of shortcode element
 	// $code    ::= the shortcode found, when == callback name
@@ -397,4 +397,17 @@ function random_number_generator_outputfilter($buffer) {
 
 if(!is_admin())
 	ob_start("random_number_generator_outputfilter");
+
+// allow shortcodes inside scripts and iframes
+add_filter( 'wp_kses_allowed_html', 'random_number_generator_wp_kses_allowed_html_func' );
+function random_number_generator_wp_kses_allowed_html_func( $allowedposttags ) {
+    $allowedposttags['script'] = array(
+        'src' => true,
+    );
+    $allowedposttags['iframe'] = array(
+        'src' => true
+    );
+    return $allowedposttags;
+}
+
 ?>

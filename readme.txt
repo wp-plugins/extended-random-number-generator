@@ -3,7 +3,7 @@ Contributors: rtddev, Whiler
 Donate link: TBD
 Tags: random, random numbers, generate random numbers
 Requires at least: 2.7
-Tested up to: 3.5
+Tested up to: 4.2.3
 Stable tag: trunk
 License: GPLv2 or later
 
