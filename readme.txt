@@ -62,7 +62,10 @@ NA
 
 == Changelog ==
 
+= 1.1 =
+* Added support for random number generation in scripts
+
 = 1.0 =
-* Extended capability to work within text/html fields outside of posts and pages.
+* Extended capability to work within text/html fields outside of posts and pages
 * First release
 * Plugin started/forked from version 1.3.2 of Original Random Number Generator plugin
